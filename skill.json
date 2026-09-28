@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-mcts-monte-carlo-tree-search-skill",
+  "version": "1.0.0",
+  "description": "Upper Confidence Bounds for Trees (UCT / MCTS) sequential planning and rollout decision engine.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
