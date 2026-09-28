@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-mcts-monte-carlo-tree-search-skill"
+version = "1.0.0"
+description = "Upper Confidence Bounds for Trees (UCT / MCTS) sequential planning and rollout decision engine."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-mcts-monte-carlo-tree-search-skill"
+Repository = "https://github.com/alphaparkinc/genpark-mcts-monte-carlo-tree-search-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-mcts-monte-carlo-tree-search-skill/issues"
